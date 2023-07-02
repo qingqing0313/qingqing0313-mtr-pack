@@ -1,0 +1,146 @@
+{
+	"custom_trains": {
+		"line1m": {
+			"name": "1号线[M-Train版本]",
+			"color": "FF0000",
+			"base_train_type": "m_train",
+			"texture_id": "mtr:custom_directory/line1m.png",
+			"speed_sound_base_id":"m_train",
+			"door_sound_base_id":"sp1900",
+           		"door_animation_type":"BOUNCY_2",
+			"model": "mtr:base_models/trains_plus/m_train_plus.bbmodel",
+			"model_properties":"mtr:train_json/line1/a1.json"
+		},
+		"line1r": {
+			"name": "1号线[R-Train版本]",
+			"color": "FF0000",
+			"base_train_type": "r_train",
+			"texture_id": "mtr:custom_directory/line1a4.png",
+			"speed_sound_base_id":"c1141a",
+			"door_sound_base_id":"sp1900",
+			"model": "mtr:base_models/trains_plus/r_train_plus.bbmodel",
+			"model_properties":"mtr:train_json/line1/a4.json"
+		},
+		"line2k":{
+            		"name":"2号线[K-Train版本]",
+            		"color":"5F96D5",
+			"base_train_type": "k_train",
+           	 	"gangway_connection_id":"",
+           		"train_barrier_id":"",
+           		"door_animation_type":"STANDARD",
+           		"render_door_overlay":false,
+           		"rider_offset":0.0,
+           		"texture_id":"mtr:custom_directory/line2a1.png",
+           		"model":"mtr:base_models/trains_plus/k_train_plus_v2.bbmodel",
+           		"model_properties":"mtr:train_json/line2/a1.json",
+           		"speed_sound_base_id":"k_train",
+			"door_sound_base_id":"sp1900"
+        	},
+		"line2m":{
+            		"name":"2号线[M-Train版本]",
+            		"color":"5F96D5",
+			"base_train_type": "m_train",
+           	 	"gangway_connection_id":"",
+           		"train_barrier_id":"",
+           		"door_animation_type":"BOUNCY_2",
+           		"render_door_overlay":false,
+           		"rider_offset":0.0,
+           		"texture_id":"mtr:custom_directory/line2m.png",
+           		"model":"mtr:base_models/trains_plus/m_train_plus.bbmodel",
+           		"model_properties":"mtr:train_json/line2/a2.json",
+           		"speed_sound_base_id":"m_train",
+			"door_sound_base_id":"sp1900"
+        	},
+		"line2m2":{
+            		"name":"2号线[M-Train2.0版本]",
+            		"color":"5F96D5",
+			"base_train_type": "m_train",
+           	 	"gangway_connection_id":"",
+           		"train_barrier_id":"",
+           		"door_animation_type":"STANDARD",
+           		"render_door_overlay":false,
+           		"rider_offset":0.0,
+           		"texture_id":"mtr:custom_directory/line2m.png",
+           		"model":"mtr:base_models/trains_plus/m_train_plus.bbmodel",
+           		"model_properties":"mtr:train_json/line2/a2.json",
+           		"speed_sound_base_id":"m_train",
+			"door_sound_base_id":"sp1900"
+        	},
+		"line3": {
+			"name": "3号线",
+			"color": "FF0000",
+			"base_train_type": "c_train",
+			"texture_id": "mtr:custom_directory/line3a1.png",
+			"speed_sound_base_id":"c_train",
+			"door_sound_base_id":"sp1900"
+			"model": "mtr:base_models/trains_plus/c_train_plus.bbmodel",
+			"model_properties":"mtr:train_json/line3/a1.json"
+		},
+		"line4k": {
+			"name": "4号线[K-Train版本]",
+			"color": "FF0000",
+			"base_train_type": "r_train",
+			"texture_id": "mtr:custom_directory/line4a1.png",
+			"speed_sound_base_id":"c1141a",
+			"door_sound_base_id":"sp1900",
+			"model": "mtr:base_models/trains_plus/r_train_plus.bbmodel",
+			"model_properties":"mtr:train_json/line4/a1.json"
+		},
+		"line4r": {
+			"name": "4号线[R-Train版本]",
+			"color": "FF0000",
+			"base_train_type": "r_train",
+			"texture_id": "mtr:custom_directory/line4a1.png",
+			"speed_sound_base_id":"c1141a",
+			"door_sound_base_id":"sp1900",
+			"model": "mtr:base_models/trains_plus/r_train_plus.bbmodel",
+			"model_properties":"mtr:train_json/line4/a1.json"
+		},
+		"line7": {
+			"name": "7号线(不使用)",
+			"color": "FF0000",
+			"base_train_type": "s_train",
+			"texture_id": "mtr:custom_directory/line7a1.png",
+			"speed_sound_base_id":"s_train",
+			"door_sound_base_id":"sp1900",
+			"model": "mtr:base_models/trains_plus/s_train_plus.bbmodel",
+			"model_properties": "mtr:train_json/line7/a1.json"
+		},
+		"line8": {
+			"name": "8号线(不使用)",
+			"color": "FF0000",
+			"base_train_type": "s_train",
+			"texture_id": "mtr:custom_directory/line8a1.png",
+			"speed_sound_base_id":"s_train",
+			"door_sound_base_id":"sp1900",
+			"model": "mtr:base_models/trains_plus/s_train_plus.bbmodel",
+			"model_properties": "mtr:train_json/line8/a1.json"
+		},
+	},
+	"custom_signs": {
+		"dripstone_caves": {
+			"texture_id": "mtr:sign/dripstone_caves.png",
+			"flip_texture": false,
+			"custom_text": "溶洞|Dripstone Caves",
+			"flip_custom_text": false,
+			"small": true,
+			"background_color": "000000"
+		},
+		"lush_caves": {
+			"texture_id": "mtr:sign/lush_caves.png",
+			"flip_texture": false,
+			"custom_text": "繁茂洞穴|Lush Caves",
+			"flip_custom_text": false,
+			"small": true,
+			"background_color": "000000"
+		},
+		"deep_dark": {
+			"texture_id": "mtr:sign/deep_dark.png",
+			"flip_texture": false,
+			"custom_text": "深暗之域|Deep Dark",
+			"flip_custom_text": false,
+			"small": true,
+			"background_color": "000000"
+		}
+	}
+}
