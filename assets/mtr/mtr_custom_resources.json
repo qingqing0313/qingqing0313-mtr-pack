@@ -1,7 +1,7 @@
 {
 	"custom_trains": {
 		"line1m": {
-			"name": "1号线[M-Train版本]",
+			"name": "1号线 M-Train版本",
 			"color": "FF0000",
 			"base_train_type": "m_train",
 			"texture_id": "mtr:custom_directory/line1m.png",
@@ -12,7 +12,7 @@
 			"model_properties":"mtr:train_json/line1/a1.json"
 		},
 		"line1r": {
-			"name": "1号线[R-Train版本]",
+			"name": "1号线 R-Train版本",
 			"color": "FF0000",
 			"base_train_type": "r_train",
 			"texture_id": "mtr:custom_directory/line1a4.png",
@@ -22,7 +22,7 @@
 			"model_properties":"mtr:train_json/line1/a4.json"
 		},
 		"line2k":{
-            		"name":"2号线[K-Train版本]",
+            		"name":"2号线 K-Train版本",
             		"color":"5F96D5",
 			"base_train_type": "k_train",
            	 	"gangway_connection_id":"",
@@ -37,7 +37,7 @@
 			"door_sound_base_id":"sp1900"
         	},
 		"line2m":{
-            		"name":"2号线[M-Train版本]",
+            		"name":"2号线 M-Train版本",
             		"color":"5F96D5",
 			"base_train_type": "m_train",
            	 	"gangway_connection_id":"",
@@ -52,7 +52,7 @@
 			"door_sound_base_id":"sp1900"
         	},
 		"line2m2":{
-            		"name":"2号线[M-Train2.0版本]",
+            		"name":"2号线 M-Train 2.0版本",
             		"color":"5F96D5",
 			"base_train_type": "m_train",
            	 	"gangway_connection_id":"",
@@ -77,7 +77,7 @@
 			"model_properties":"mtr:train_json/line3/a1.json"
 		},
 		"line4k": {
-			"name": "4号线[K-Train版本]",
+			"name": "4号线 K-Train版本",
 			"color": "FF0000",
 			"base_train_type": "r_train",
 			"texture_id": "mtr:custom_directory/line4a1.png",
@@ -87,7 +87,7 @@
 			"model_properties":"mtr:train_json/line4/a1.json"
 		},
 		"line4r": {
-			"name": "4号线[R-Train版本]",
+			"name": "4号线 R-Train版本 ",
 			"color": "FF0000",
 			"base_train_type": "r_train",
 			"texture_id": "mtr:custom_directory/line4a1.png",
@@ -115,7 +115,7 @@
 			"door_sound_base_id":"sp1900",
 			"model": "mtr:base_models/trains_plus/s_train_plus.bbmodel",
 			"model_properties": "mtr:train_json/line8/a1.json"
-		},
+		}
 	},
 	"custom_signs": {
 		"dripstone_caves": {
