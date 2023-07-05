@@ -1,0 +1,21 @@
+{
+	"custom_trains":{
+		"line1_m_train":{
+			"name":"1∫≈œﬂ M-Train∞Ê±æ",
+			"base_train_type": "m_train",
+			"description":"My Custom Train Description",
+			"wikipedia_article":"",
+			"color":"2C65DD",
+			"gangway_connection_id":"",
+			"train_barrier_id":"",
+			"speed_sound_base_id":"m_train",
+			"door_sound_base_id":"m_train",
+			"door_animation_type":"BOUNCY_1",
+			"render_door_overlay":false,
+			"rider_offset":0.0,
+			"texture_id":"mtr:line1_m_train/line1_m_train",
+			"model":"mtr:line1_m_train/line1_m_train.bbmodel",
+			"model_properties":"mtr:line1_m_train/line1_m_train.json"
+		}
+	}
+}
