@@ -83,7 +83,20 @@
 			"texture_id":"mtr:line3_c_train/line3_c_train",
 			"model":"mtr:line3_c_train/line3_c_train.bbmodel",
 			"model_properties":"mtr:line3_c_train/line3_c_train.json"
+		},
+		"line4_k_train":{
+			"name":"4∫≈œﬂ K-Train∞Ê±æ",
+			"description":"My Custom Train Description",
+			"wikipedia_article":"",
+			"color":"AEE865",
+			"gangway_connection_id":"",
+			"train_barrier_id":"",
+			"door_animation_type":"PLUG_FAST",
+			"render_door_overlay":false,
+			"rider_offset":0.0,
+			"texture_id":"mtr:line4_k_train/line4_k_train",
+			"model":"mtr:line4_k_train/line4_k_train.bbmodel",
+			"model_properties":"mtr:line4_k_train/line4_k_train.json"
 		}
-
 	}
 }
